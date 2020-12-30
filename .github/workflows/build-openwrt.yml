@@ -18,8 +18,8 @@ on:
         default: 'ssh-actions'
       wxtz:
         description: '微信通知'
-        required: wxtz
-        default: 'wxtz'
+        required: true
+        default: 'wxtz-actions'
       release:
         description: '发布固件'
         required: false
